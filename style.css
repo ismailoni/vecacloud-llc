@@ -1,0 +1,26 @@
+/*
+Theme Name: VescaCloud Custom Website Theme 
+Theme URI: https://vescacloud.com
+Author: Ismail Oni (VescaCloud)
+Author URI: https://vescacloud.com
+Description: A modern, professional WordPress theme for Omni Solutions - featuring Salesforce, HubSpot, CRM & ERP integration consulting services.
+Version: 1.3.0
+Requires at least: 6.0
+Requires PHP: 8.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: omni-solutions
+Domain Path: /languages
+Tags: business, consulting, crm, erp, integration, responsive, modern
+*/
+
+/* ============================================
+   OMNI SOLUTIONS WORDPRESS THEME STYLESHEET
+   ============================================ */
+
+/* This file is intentionally minimal. All styles are imported from assets/css/main.css */
+
+@import url('./assets/css/main.css');
+@import url('./assets/css/pages.css');
+@import url('./assets/css/login.css');
+@import url('./assets/css/admin.css');

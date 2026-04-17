@@ -1,0 +1,156 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+  "version": 2,
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'DM Sans', 'system-ui', 'sans-serif'",
+          "slug": "dm-sans",
+          "name": "DM Sans"
+        },
+        {
+          "fontFamily": "'Plus Jakarta Sans', 'system-ui', 'sans-serif'",
+          "slug": "plus-jakarta",
+          "name": "Plus Jakarta Sans"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "0.875rem",
+          "slug": "sm",
+          "name": "Small"
+        },
+        {
+          "size": "1rem",
+          "slug": "base",
+          "name": "Base"
+        },
+        {
+          "size": "1.125rem",
+          "slug": "lg",
+          "name": "Large"
+        },
+        {
+          "size": "1.5rem",
+          "slug": "xl",
+          "name": "Extra Large"
+        },
+        {
+          "size": "2rem",
+          "slug": "2xl",
+          "name": "2 Extra Large"
+        },
+        {
+          "size": "2.5rem",
+          "slug": "3xl",
+          "name": "3 Extra Large"
+        }
+      ]
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#f5f8fb",
+          "name": "Background",
+          "slug": "background"
+        },
+        {
+          "color": "#1a1f2e",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#3d5afe",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#f0f4ff",
+          "name": "Primary Light",
+          "slug": "primary-light"
+        },
+        {
+          "color": "#f0f0f3",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#ffffff",
+          "name": "Card",
+          "slug": "card"
+        },
+        {
+          "color": "#e8eaed",
+          "name": "Border",
+          "slug": "border"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "0.25rem",
+          "slug": "xs",
+          "name": "Extra Small"
+        },
+        {
+          "size": "0.5rem",
+          "slug": "sm",
+          "name": "Small"
+        },
+        {
+          "size": "1rem",
+          "slug": "md",
+          "name": "Medium"
+        },
+        {
+          "size": "1.5rem",
+          "slug": "lg",
+          "name": "Large"
+        },
+        {
+          "size": "2rem",
+          "slug": "xl",
+          "name": "Extra Large"
+        },
+        {
+          "size": "3rem",
+          "slug": "2xl",
+          "name": "2 Extra Large"
+        },
+        {
+          "size": "4rem",
+          "slug": "3xl",
+          "name": "3 Extra Large"
+        },
+        {
+          "size": "6rem",
+          "slug": "4xl",
+          "name": "4 Extra Large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--font-sans)",
+      "fontSize": "1rem",
+      "lineHeight": 1.5
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--font-heading)",
+          "fontWeight": "700",
+          "lineHeight": 1.2
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--color-primary)"
+        }
+      }
+    }
+  }
+}
